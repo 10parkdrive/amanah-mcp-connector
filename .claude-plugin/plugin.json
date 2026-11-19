@@ -1,0 +1,11 @@
+{
+  "name": "amanah-mcp",
+  "displayName": "Amanah Capital Private Markets",
+  "description": "Connect Amanah Capital Private Markets to Claude. 27 tools for allocator research, manager diligence, and fund performance.",
+  "version": "1.0.0",
+  "mcpServers": {
+    "amanah": {
+      "url": "https://mcp.amanahcapital.uk/mcp"
+    }
+  }
+}
