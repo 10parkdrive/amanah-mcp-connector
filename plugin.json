@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "amanah-capital-private-markets",
+  "version": "1.0.0",
+  "description": "Connect Amanah Capital Private Markets to ChatGPT or Codex. 27 tools for allocator research, manager diligence, and fund performance.",
+  "author": {
+    "name": "Amanah Capital",
+    "url": "https://amanahcapital.uk"
+  },
+  "repository": "https://github.com/10parkdrive/amanah-mcp-connector",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Amanah Capital",
+        "shortDescription": "27 tools for allocator research and fund diligence.",
+        "longDescription": "Ask questions across the Amanah Capital private-markets dataset. Includes 27 tools covering fundraising, allocator research, manager diligence, fund performance, and adviser networks. Search 28,304 institutions, 44,895 funds, and historic commitment and performance records.",
+        "developerName": "Amanah Capital",
+        "category": "Finance",
+        "capabilities": ["Read"],
+        "websiteURL": "https://amanahcapital.uk",
+        "privacyPolicyURL": "https://amanahcapital.uk/privacy",
+        "defaultPrompt": [
+          "Show me the performance metrics for funds matching this vintage.",
+          "Find institutional LPs who have allocations below their target."
+        ],
+        "brandColor": "#0F261F",
+        "composerIcon": "./assets/cover.jpg"
+      }
+    }
+  }
+}
